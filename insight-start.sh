@@ -1,9 +1,9 @@
 #!/bin/bash
 
-AC_NAME=$1
+AC_NAME=CHAIN
 ac_name=`echo "$AC_NAME" | tr '[:upper:]' '[:lower:]'`
 JSON=`cat $AC_NAME.json`
-AC_UI="https://github.com/Utrum/insight-ui-$ac_name"
+AC_UI="https://github.com/chainmakers/insight-ui-chain#dev"
 
 docker run \
   --rm \
